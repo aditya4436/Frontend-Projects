@@ -1,0 +1,36 @@
+body {
+  margin: 0;              /* removes default spacing */
+  min-height: 100vh;      /* full viewport height */
+  background: linear-gradient(135deg, #FFDEE9, #B5FFFC);
+}
+h1{
+    text-align: center;
+}
+
+.portfolio{
+    display: flex;
+    gap: 20px;
+}
+
+.name{
+    width: 100%
+}
+
+
+.skills-table{
+    border-spacing: 20px;
+}
+
+h3{
+    margin-left: 20px;
+}
+
+p{
+    margin-left: 20px;
+}
+
+.contact-info{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
